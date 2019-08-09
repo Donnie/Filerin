@@ -2,7 +2,7 @@
   "name": "filerin",
   "version": "1.0.0",
   "description": "Node/Electron App for internal file sharing with AES256 security",
-  "main": "main.js",
+  "main": "src/main.js",
   "scripts": {
     "start": "electron . --disable-gpu"
   },
@@ -19,5 +19,8 @@
   "license": "CC0-1.0",
   "devDependencies": {
     "electron": "^6.0.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
